@@ -1,0 +1,12 @@
+retriever,qid,query_type,query,judged,relevant_hits,P@10,MaxP@10,NormP@10,Hit@10,Recall@10,RR@10,result_count,retrieved_pids,note
+hybrid,32731,ms_marco_dev,average cost of a full redo of house drain system,True,0.0,0.0,0.1,0.0,0.0,0.0,0.0,10,"['418208', '7776376', '1138573', '7383299', '7984946', '7924105', '1685010', '7798200', '1710290', '7929266']",judged by qrels
+hybrid,11133,ms_marco_dev,acute myelogenous leukemia age,True,1.0,0.1,0.1,1.0,1.0,1.0,1.0,10,"['7315363', '7391872', '7987818', '7438703', '1745803', '455251', '7466143', '7330726', '1914705', '7582305']",judged by qrels
+hybrid,74749,ms_marco_dev,can tmj cause fever,True,1.0,0.1,0.1,1.0,1.0,1.0,1.0,10,"['7494911', '7369345', '7378243', '2240918', '7640149', '3553042', '7400007', '7371853', '7075754', '7641166']",judged by qrels
+hybrid,67857,ms_marco_dev,can h. pylori cause vomiting,True,1.0,0.1,0.1,1.0,1.0,1.0,1.0,10,"['7067829', '7077323', '7399600', '7500634', '7356826', '7641166', '7433392', '7987616', '7342489', '7443556']",judged by qrels
+hybrid,63467,ms_marco_dev,can a vegetable smoothie contain a lots of carbs,True,0.0,0.0,0.1,0.0,0.0,0.0,0.0,10,"['7362513', '7887050', '1550347', '7428032', '7317485', '7531939', '7574941', '7372135', '7074571', '7669583']",judged by qrels
+hybrid,manual_1,manual,what is the role of phloem in plants,False,,,,,,,,10,"['7355372', '5124428', '7362008', '7446473', '7066915', '2143215', '7876189', '7318277', '7764392', '7978999']",official qrels unavailable
+hybrid,manual_2,manual,what causes dark yellow urine,False,,,,,,,,10,"['8008536', '8008534', '5026971', '7659125', '7416534', '5637752', '7328877', '7454223', '7959070', '7416531']",official qrels unavailable
+hybrid,manual_3,manual,what was the Manhattan Project,False,,,,,,,,10,"['7481410', '183772', '8001382', '7368347', '7526192', '7348838', '7782242', '7346234', '7710927', '7842527']",official qrels unavailable
+hybrid,manual_4,manual,what is restorative justice,False,,,,,,,,10,"['7296382', '7030273', '7308947', '7328110', '7361910', '8005717', '4259742', '7390120', '7663851', '7415314']",official qrels unavailable
+hybrid,manual_5,manual,what causes pain under the left rib cage,False,,,,,,,,10,"['7940547', '7356826', '1538587', '8007600', '8007603', '7315745', '7406062', '7315744', '7349351', '7981504']",official qrels unavailable
+hybrid,MEAN_JUDGED,summary,,True,0.6,0.06000000000000001,0.1,0.6,0.6,0.6,0.6,,[],mean excludes unjudged manual queries

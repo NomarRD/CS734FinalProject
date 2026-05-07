@@ -1,0 +1,13 @@
+faiss-cpu
+numpy
+openai
+pandas
+pyarrow
+python-dotenv
+rank-bm25
+sentence-transformers
+streamlit
+torch
+torchvision
+transformers
+accelerate
